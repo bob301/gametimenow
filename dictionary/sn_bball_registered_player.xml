@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Registered Player" max_length="40" name="sn_bball_registered_player" type="collection">
-        <element display="true" label="Player" max_length="32" name="player" reference="sys_user" type="reference"/>
+        <element display="true" label="Player" mandatory="true" max_length="32" name="player" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="player"/>
         </index>
