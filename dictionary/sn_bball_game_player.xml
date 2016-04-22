@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Game Player" max_length="40" name="sn_bball_game_player" type="collection">
+        <element label="Game" max_length="32" name="game" reference="sn_bball_game" type="reference"/>
+        <element display="true" label="Player" max_length="32" name="player" reference="sn_bball_registered_player" type="reference"/>
+        <element label="Playing" max_length="40" name="playing" type="boolean"/>
+        <index name="index">
+            <element name="game"/>
+        </index>
+        <index name="index2">
+            <element name="player"/>
+        </index>
+    </element>
+</database>
