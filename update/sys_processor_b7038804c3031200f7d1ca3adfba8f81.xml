@@ -16,18 +16,31 @@
 
 	insertGamePlayer(g_request, g_processor);
 
+	function getRegisteredUser(userId) {
+		var ru = new GlideRecord('sn_bball_registered_player');
+		ru.addQuery('player', userId);
+		ru.query();
+		
+		if(ru.next())
+			return ru.getUniqueValue();
+		
+		return false;
+	}
+	
 	function insertGamePlayer(g_request, g_processor) {
 		var playing = g_request.getParameter('playing');
 		var game = g_request.getParameter('game');
-		var player = gs.getUserDisplayName();
-	
-		var gr = new GlideRecord('sn_bball_game_player');
-		gr.initialize();
-		gr.game = game;
-		gr.player = player;
-		gr.playing = playing;
-		gr.insert();
-
+		var player = getRegisteredUser(gs.getUserID());
+		
+		if (player) {
+			var gp = new GlideRecord('sn_bball_game_player');
+			gp.initialize();
+			gp.setValue('game', game);
+			gp.setValue('player', player);
+			gp.setValue('playing', playing);
+			gp.insert();
+		}
+		
 		g_processor.redirect("/sn_bball_game.do?sys_id=" + game);
 	}
 })(g_request, g_response, g_processor);]]></script>
@@ -36,7 +49,7 @@
         <sys_created_on>2016-04-22 17:08:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b7038804c3031200f7d1ca3adfba8f81</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Insert Game Player</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
@@ -44,7 +57,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_processor_b7038804c3031200f7d1ca3adfba8f81</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-22 17:08:58</sys_updated_on>
+        <sys_updated_on>2016-04-22 17:22:07</sys_updated_on>
         <type>script</type>
     </sys_processor>
 </record_update>
