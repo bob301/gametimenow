@@ -3,7 +3,7 @@
     <sys_scope_table_access action="INSERT_OR_UPDATE">
         <create_access>false</create_access>
         <delete_access>false</delete_access>
-        <example_stack_trace>Default-thread-2
+        <example_stack_trace>Default-thread-3
 	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
 	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
 	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
@@ -14,7 +14,7 @@
 	com.glide.script.fencing.ScopedGlideRecord.getScopeAccessStatusForTable(ScopedGlideRecord.java:229)
 	com.glide.script.fencing.ScopedGlideRecord.checkOperationPermitted(ScopedGlideRecord.java:211)
 	com.glide.script.fencing.ScopedGlideRecord.jsFunction_query(ScopedGlideRecord.java:170)
-	sun.reflect.GeneratedMethodAccessor370.invoke(Unknown Source)
+	sun.reflect.GeneratedMethodAccessor207.invoke(Unknown Source)
 	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	java.lang.reflect.Method.invoke(Method.java:497)
 	org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
@@ -22,37 +22,37 @@
 	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
 	org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
-	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_726._c_loadFiles_2(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d:9)
-	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_726.call(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d)
+	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_352._c_loadFiles_2(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d:9)
+	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_352.call(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.callName0(OptRuntime.java:74)
-	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_726._c_anonymous_1(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d:2)
-	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_726.call(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d)
+	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_352._c_anonymous_1(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d:2)
+	org.mozilla.javascript.gen.sys_script_include_6d70a507c3500200ca27ff9c02d3ae6d_352.call(sys_script_include.6d70a507c3500200ca27ff9c02d3ae6d)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
-	org.mozilla.javascript.gen.sys_script_include_e7f6c334eb31310007e48c1cf106fe99_705._c_anonymous_5(sys_script_include.e7f6c334eb31310007e48c1cf106fe99:36)
-	org.mozilla.javascript.gen.sys_script_include_e7f6c334eb31310007e48c1cf106fe99_705.call(sys_script_include.e7f6c334eb31310007e48c1cf106fe99)
+	org.mozilla.javascript.gen.sys_script_include_e7f6c334eb31310007e48c1cf106fe99_326._c_anonymous_5(sys_script_include.e7f6c334eb31310007e48c1cf106fe99:36)
+	org.mozilla.javascript.gen.sys_script_include_e7f6c334eb31310007e48c1cf106fe99_326.call(sys_script_include.e7f6c334eb31310007e48c1cf106fe99)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
-	org.mozilla.javascript.gen._refname__704._c_getTree_2(&lt;refname&gt;:14)
-	org.mozilla.javascript.gen._refname__704.call(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__325._c_getTree_2(&lt;refname&gt;:14)
+	org.mozilla.javascript.gen._refname__325.call(&lt;refname&gt;)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
-	org.mozilla.javascript.gen._refname__704._c_anonymous_1(&lt;refname&gt;:3)
-	org.mozilla.javascript.gen._refname__704.call(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__325._c_anonymous_1(&lt;refname&gt;:3)
+	org.mozilla.javascript.gen._refname__325.call(&lt;refname&gt;)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.call0(OptRuntime.java:23)
-	org.mozilla.javascript.gen._refname__704._c_script_0(&lt;refname&gt;:1)
-	org.mozilla.javascript.gen._refname__704.call(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__325._c_script_0(&lt;refname&gt;:1)
+	org.mozilla.javascript.gen._refname__325.call(&lt;refname&gt;)
 	org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:560)
 	org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3439)
-	org.mozilla.javascript.gen._refname__704.call(&lt;refname&gt;)
-	org.mozilla.javascript.gen._refname__704.exec(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__325.call(&lt;refname&gt;)
+	org.mozilla.javascript.gen._refname__325.exec(&lt;refname&gt;)
 	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
 	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
 	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
@@ -72,7 +72,7 @@
         <source_scope display_value="Studio">5d9789f3eb51310007e48c1cf106fe9e</source_scope>
         <sys_class_name>sys_scope_table_access</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-04-22 15:40:11</sys_created_on>
+        <sys_created_on>2016-04-07 16:59:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>77403f73c3321200f7d1ca3adfba8fe9</sys_id>
         <sys_mod_count>0</sys_mod_count>
@@ -83,7 +83,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_scope_table_access_77403f73c3321200f7d1ca3adfba8fe9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-22 15:40:11</sys_updated_on>
+        <sys_updated_on>2016-04-07 16:59:38</sys_updated_on>
         <table_name>sys_ui_list_control</table_name>
         <target_scope display_value="Global">global</target_scope>
         <write_access>false</write_access>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>custom css</name>
+        <style>.top {&#13;
+height: 60px;&#13;
+}&#13;
+&#13;
+#header-container {&#13;
+padding-left: 0px;&#13;
+margin-left: 55px;&#13;
+}&#13;
+&#13;
+.body-container {&#13;
+margin-left: auto;&#13;
+margin-right: auto;&#13;
+}&#13;
+&#13;
+.cols {&#13;
+width: 645px;&#13;
+margin-top: 80px;&#13;
+margin-left: auto;&#13;
+margin-right: auto;&#13;
+}&#13;
+&#13;
+.pd {&#13;
+// display: inline-block;&#13;
+width: 280px;&#13;
+min-height: 300px;&#13;
+}&#13;
+&#13;
+.pd-left {&#13;
+margin-left: 30px;&#13;
+float: left;&#13;
+}&#13;
+&#13;
+.pd-right {&#13;
+margin-left: 50px;&#13;
+float: right;&#13;
+}&#13;
+&#13;
+.ph {&#13;
+height: 40px;&#13;
+}&#13;
+&#13;
+.in,&#13;
+.out {&#13;
+text-align: center;&#13;
+font-family: SourceSansProLight, "Helvetica Neue", Arial;&#13;
+margin-left: auto;&#13;
+margin-right: auto;&#13;
+font-size: 40px;&#13;
+font-weight: bold;&#13;
+}&#13;
+&#13;
+.icon-stop-watch {&#13;
+display: none;&#13;
+}&#13;
+&#13;
+.panel-default {&#13;
+border : 0;&#13;
+border-color : inherit;&#13;
+}</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-02-29 03:09:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>0cf7c0369f3512005b4e7fc9c42e706d</sys_id>
+        <sys_mod_count>109</sys_mod_count>
+        <sys_name>custom css</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>content_css_0cf7c0369f3512005b4e7fc9c42e706d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-09 00:25:50</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>

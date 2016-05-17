@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_bball.WeatherFetcher</api_name>
+        <client_callable>false</client_callable>
+        <description>Fetches weather data;</description>
+        <name>WeatherFetcher</name>
+        <script><![CDATA[var WeatherFetcher = Class.create();
+WeatherFetcher.prototype = {
+    initialize: function() {
+		this.json = new global.JSON();
+    },
+
+	getWeather : function(days) {
+		if (!days)
+			return this._current();
+		
+		if (days > 15)
+			return this._forecast(15);
+		
+		return this._forecast(days);
+	},
+	
+	_forecast : function(days) {
+		var r = new sn_ws.RESTMessageV2('sn_bball.Forecast', 'get');
+		r.setStringParameter('days', days+'');
+
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var weatherObj;
+			
+		if (httpStatus == 200 && responseBody)
+			weatherObj = this.json.decode(responseBody);
+		else
+			gs.error("Unable to get weather data. Response code {0}, response body {1}", httpStatus, responseBody);
+		
+		gs.info("Weather object: {0}", responseBody);
+		
+		return new WeatherDecoder(weatherObj, days).getDescription();
+	},
+	
+	_current : function() {
+		var r = new sn_ws.RESTMessageV2('sn_bball.Weather', 'get');
+		var response = r.execute();
+		var responseBody = response.getBody();
+		var httpStatus = response.getStatusCode();
+		var weatherObj = {};
+			
+		if (httpStatus == 200 && responseBody)
+			weatherObj = this.json.decode(responseBody);
+		else
+			gs.error("Unable to get weather data. Response code {0}, response body {1}", httpStatus, responseBody);
+		
+		gs.info("Weather object: {0}", responseBody);
+		
+		return new WeatherDecoder(weatherObj).getDescription();
+		
+	},
+	
+    type: 'WeatherFetcher'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-09 20:20:38</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1636a12bc3621200f7d1ca3adfba8ffe</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>WeatherFetcher</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>sys_script_include_1636a12bc3621200f7d1ca3adfba8ffe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-17 17:37:56</sys_updated_on>
+    </sys_script_include>
+</record_update>
