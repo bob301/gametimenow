@@ -58,7 +58,7 @@
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>GmaeTimeNow Notification</name>
+        <name>SN BBall Notification</name>
         <omit_watermark>true</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -78,8 +78,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ebfd6f109f7112005ca47fc9c42e7016</sys_id>
-        <sys_mod_count>36</sys_mod_count>
-        <sys_name>GmaeTimeNow Notification</sys_name>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>SN BBall Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
@@ -87,7 +87,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sysevent_email_action_ebfd6f109f7112005ca47fc9c42e7016</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-05-17 17:10:11</sys_updated_on>
+        <sys_updated_on>2016-04-11 22:33:25</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
