@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <format>png</format>
+        <height>40</height>
+        <image/>
+        <name>Rainy.png</name>
+        <size_bytes>831</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a27ca4a3c3621200f7d1ca3adfba8ffa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Rainy.png</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>db_image_a27ca4a3c3621200f7d1ca3adfba8ffa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 20:30:46</sys_updated_on>
+        <thumbnail/>
+        <width>40</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>831</size_bytes>
+        <size_compressed>854</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:40</sys_created_on>
+        <sys_id>de8ca4a3c3621200f7d1ca3adfba8ffc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 20:30:40</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>a27ca4a3c3621200f7d1ca3adfba8ffa</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="de8ca4a3c3621200f7d1ca3adfba8ffc">de8ca4a3c3621200f7d1ca3adfba8ffc</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:40</sys_created_on>
+        <sys_id>128ca4a3c3621200f7d1ca3adfba8ffd</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AT8DwPyJUE5HDQoaCgAAAA1JSERSAAAAKAAAACgIBgAAAIz+uG0AAAMGSURBVHja7ZhJaFNRFIbrgAOKM06g4EQXKioiVEGxC8GFKxVRLFicQFADbhwQisNC6rwSLKKLClJwWLprdSG6U4iiVKkYhxBp5qlpkvr98AoSb9Ik7yV18Q78vOHee+5/zz3Du6+hwRVXXHHFFccknU4vy+Vy7eBtPp9PDSHcB7jv4eoJhUIzRoWY1+udAIFrEMmCL9xfzWazewcHB3dwPcTzfd6HQYjng3Ul5/f7p1gWiopMV1fXOFM/WY8+Ny2rtteNIJM9Ab8HBgZWl9OfRRywSHpqTo7J9mC9PFvZXOGiLslHk8nkYkcJtbW1jU0kEgvBAh7HKBjAo0r1+Hy+yYzzgeuOEJNfoewc+DVkCfc/dcV6m6t0jcvgqyPk2I6nIInCC5lMZoNIKWrle8WCYiRBx1YtMB6Pz7PrZ0chB6/MpsK2WCw210bOXCGCBNcau1H6BtyrQVIfJrjKliJtLVZsdZqgkrjly+/BbQg3lh2pEGph0PPhoOD5uNMEZTmrylwEn5StuJ4pOSgSicxSVVDJUvpAwTFwmNVuq2U+tYxyinmZNne+VLSqZPlsO271AXlSJAnIdabGVlmuEnJK2v39/dOKBFeHKk2FHJX834EHJoUvQWeFyrzgdGGDLCBLVBOh0sfYH7ajFb/crnoajUbnGAhuVKWocpt3KzD/abCidWe5igKBwFSIrK+BH7aw8LTJtCreZ2v4WebB2rPL6Neh4mBquAvzD93d3eNtJN9m9LwyvN+iANSRoNR4Pr8WMT6OFU+YSk+jTEuHK+XkLcHgxz2mssi7G8bI/EuCweB0+rxGx8e+vr5JxfZ/n5UsH6ZSqSUltqET3DJ9iI5kpSJJepfOMuA745ePGJ1M9FlBo1UVtkN8qbaLAGlywjd1Vhk2StmfXvJD+Y1Oa4Vt4XB4pmqoU8GjuSA2v6YlCmuuxQLfent7JxZun44F2pVRPbBD4jF4ZvDp/ToP1+3Arjqt7zgDkSO0rTRYtkkH+Hpa6gW481/+d5Ejs10JRbH7F8oVB+UPq+4chyH9xzgAAAAASUVORK5CYIK1IViWPwMAAA==</data>
+        <length>1128</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="de8ca4a3c3621200f7d1ca3adfba8ffc">de8ca4a3c3621200f7d1ca3adfba8ffc</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:40</sys_created_on>
+        <sys_id>928ca4a3c3621200f7d1ca3adfba8ffd</sys_id>
+    </sys_attachment_doc>
+</record_update>
