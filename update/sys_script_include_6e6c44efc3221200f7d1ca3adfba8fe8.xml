@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_bball.WeatherDecoder</api_name>
+        <client_callable>false</client_callable>
+        <description>Takes the data from OpenWeather and returns statuses</description>
+        <name>WeatherDecoder</name>
+        <script><![CDATA[var WeatherDecoder = Class.create();
+
+WeatherDecoder.DEFAULT = "Sunny";
+
+WeatherDecoder.prototype = {
+    initialize: function(weather, day) {
+		this.weather = weather;
+		this.daysWeather = weather;
+		this.day = day;
+		if (!day)
+			this.day = 0;
+		
+		gs.info("Decoding weather for {0} days from now", this.day);
+    },
+	
+	getDescription: function() {
+		//Sunny, Cloudy, Overcasty, Rainy, Stormy
+		if (!this.weather) {
+			gs.error("Weather data not provided.");
+			return WeatherDecoder.DEFAULT;
+		}
+		
+		if (this.weather.hasOwnProperty("list") && this.weather.list.length >= this.day - 1)
+			this.daysWeather = this.weather.list[this.day - 1];
+				
+		if(this.daysWeather.hasOwnProperty('rain')) {
+			if (this.daysWeather.rain > 7)
+				return "Stormy";
+			if (this.daysWeather.rain > 1)
+				return "Rainy";
+		}
+		
+		if(this.daysWeather.hasOwnProperty('clouds')) {
+			if (this.daysWeather.clouds.all > 45)
+				return "Overcasty";
+			
+			if (this.daysWeather.clouds.all > 10)
+				return "Cloudy";
+		}
+		
+		gs.info("The weather is ambiguous.");
+		return WeatherDecoder.DEFAULT;
+	},
+
+
+    type: 'WeatherDecoder'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 18:43:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e6c44efc3221200f7d1ca3adfba8fe8</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>WeatherDecoder</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>sys_script_include_6e6c44efc3221200f7d1ca3adfba8fe8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-09 21:02:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

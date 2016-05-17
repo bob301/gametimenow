@@ -5,13 +5,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 16:24:47</sys_created_on>
-            <sys_id>0d8affb3c3321200f7d1ca3adfba8f41</sys_id>
+            <sys_created_on>2016-03-03 03:58:57</sys_created_on>
+            <sys_id>5c50bbaf9f7512005b4e7fc9c42e7060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="Default view">458affb3c3321200f7d1ca3adfba8f41</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 16:24:47</sys_updated_on>
+            <sys_updated_on>2016-03-03 03:58:57</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>game_date</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 16:24:47</sys_created_on>
-            <sys_id>8d8affb3c3321200f7d1ca3adfba8f41</sys_id>
+            <sys_created_on>2016-03-03 03:58:57</sys_created_on>
+            <sys_id>9c50bbaf9f7512005b4e7fc9c42e7060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="Default view">458affb3c3321200f7d1ca3adfba8f41</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 16:24:47</sys_updated_on>
+            <sys_updated_on>2016-03-03 03:58:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 16:24:47</sys_created_on>
-            <sys_id>018affb3c3321200f7d1ca3adfba8f42</sys_id>
+            <sys_created_on>2016-03-03 03:58:57</sys_created_on>
+            <sys_id>dc50bbaf9f7512005b4e7fc9c42e7060</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="Default view">458affb3c3321200f7d1ca3adfba8f41</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 16:24:47</sys_updated_on>
+            <sys_updated_on>2016-03-03 03:58:57</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>location</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 16:24:47</sys_created_on>
-            <sys_id>818affb3c3321200f7d1ca3adfba8f42</sys_id>
+            <sys_created_on>2016-03-03 03:58:57</sys_created_on>
+            <sys_id>1050bbaf9f7512005b4e7fc9c42e7061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="Default view">458affb3c3321200f7d1ca3adfba8f41</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 16:24:47</sys_updated_on>
+            <sys_updated_on>2016-03-03 03:58:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,15 +61,29 @@
             <element>.end_split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 16:24:47</sys_created_on>
-            <sys_id>058affb3c3321200f7d1ca3adfba8f42</sys_id>
+            <sys_created_on>2016-03-03 03:58:57</sys_created_on>
+            <sys_id>5050bbaf9f7512005b4e7fc9c42e7061</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="Default view">458affb3c3321200f7d1ca3adfba8f41</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 16:24:47</sys_updated_on>
+            <sys_updated_on>2016-03-03 03:58:57</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>projected_weather</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2016-04-08 18:50:40</sys_created_on>
+            <sys_id>99a51023c3621200f7d1ca3adfba8f57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="Default view">458affb3c3321200f7d1ca3adfba8f41</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2016-04-08 18:50:40</sys_updated_on>
+            <sys_user/>
+            <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
@@ -78,7 +92,7 @@
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-04-22 16:24:47</sys_created_on>
+            <sys_created_on>2016-03-03 03:58:57</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
@@ -92,7 +106,7 @@
             <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
             <sys_update_name>sys_ui_section_458affb3c3321200f7d1ca3adfba8f41</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-04-22 16:24:47</sys_updated_on>
+            <sys_updated_on>2016-03-03 03:58:57</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

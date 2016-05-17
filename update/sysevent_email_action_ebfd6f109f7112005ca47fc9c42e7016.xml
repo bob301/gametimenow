@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>sn_bball_game</collection>
+        <condition/>
+        <content_type>multipart/mixed</content_type>
+        <description/>
+        <event_name>approval.cancelled</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>true</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<table style="width: 800px; height: 575px; background: url('http://s30.postimg.org/ghj65vrep/sn_basketball_bg.jpg'); border-collapse: collapse;" width="800">
+<tbody>
+<tr>
+<td colspan="4" height="260">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td id="button-wrapper" style="background: url('/bball_email_in.png') no-repeat center; text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?playing=true">YES</a></td>
+<td style="background: url('/bball_email_out.png') no-repeat center; text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?playing=false">NO</a></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td style="height: 100px; text-align: center; color: white;" colspan="2">Click <a style="color: #d11e26;" href="/sn_bball_SN%20BBall.do">HERE</a> to see who's playing.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="background-color: black; text-align: center; height: 75px;" colspan="4">
+<p style="margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 12px; color: #fff; padding-top: 16px; text-align: center;">ServiceNow Basketball</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SN BBall Notification</name>
+        <omit_watermark>true</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>chris.ward@servicenow.com</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Are you in?</subject>
+        <subscribable>true</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-02-22 02:50:20</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebfd6f109f7112005ca47fc9c42e7016</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>SN BBall Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>sysevent_email_action_ebfd6f109f7112005ca47fc9c42e7016</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-11 22:33:25</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
