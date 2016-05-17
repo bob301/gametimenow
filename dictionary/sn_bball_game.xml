@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Game" max_length="40" name="sn_bball_game" type="collection">
+        <element display="true" label="Game Date" max_length="40" name="game_date" type="glide_date_time"/>
+        <element choice="1" default="Sport Court" label="Location" max_length="40" name="location" type="choice">
+            <choice>
+                <element label="Sport Court" sequence="0" value="Sport Court"/>
+                <element label="The Park" sequence="1" value="The Park"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_css">
+    <content_css action="INSERT_OR_UPDATE">
+        <name>BBall Styles</name>
+        <style>html {&#13;
+    width:  100%;&#13;
+    height: 100%:&#13;
+}&#13;
+&#13;
+body {&#13;
+    width: 100%;&#13;
+    height: 100%;&#13;
+    background-image: url("/snb_background.jpg");&#13;
+    background-repeat:no-repeat;&#13;
+    background-position: top center;&#13;
+}&#13;
+&#13;
+.players {&#13;
+background-color: black;&#13;
+color: white;&#13;
+}&#13;
+&#13;
+.panel {&#13;
+background-color: black;&#13;
+border-right : 0;&#13;
+border-top: 0;&#13;
+border-bottom: 0;&#13;
+border-radius: 0;&#13;
+}&#13;
+&#13;
+.panel.pd-left {&#13;
+border-left: 5px solid #d11e26;&#13;
+}&#13;
+&#13;
+.panel.pd-right {&#13;
+border-left: 5px solid #7e7e7e;&#13;
+}&#13;
+&#13;
+.panel-heading {&#13;
+border-bottom: 0;&#13;
+border-radius: 0;&#13;
+}&#13;
+&#13;
+div.panel.panel-default.pd.pd-left &gt; div.panel-heading.ph {&#13;
+background-image: url("/panel_in.jpg");&#13;
+background-color: #2b2b2d;&#13;
+background-repeat: no-repeat;&#13;
+}&#13;
+&#13;
+div.panel.panel-default.pd.pd-right &gt; div.panel-heading.ph {&#13;
+background-image: url("/panel_out.jpg");&#13;
+background-color: #2b2b2d;&#13;
+background-repeat: no-repeat;&#13;
+}&#13;
+&#13;
+.winit {&#13;
+margin-left : 30px;&#13;
+margin-bottom: 20px;&#13;
+}&#13;
+&#13;
+.in-or-out {&#13;
+clear : both;&#13;
+color: white;&#13;
+margin-left: 30px;&#13;
+}&#13;
+.in-or-out .button-in {&#13;
+background-color : #d11e26;&#13;
+margin-top: 10px;&#13;
+font-size: 30;&#13;
+}&#13;
+&#13;
+.in-or-out .button-out {&#13;
+background-color : #5d5d5d;&#13;
+margin-top: 10px;&#13;
+font-size: 30;&#13;
+}&#13;
+&#13;
+.in-or-out .center {&#13;
+margin: 0 auto;&#13;
+width: 100px;&#13;
+text-align: center;&#13;
+}&#13;
+&#13;
+.button-float {&#13;
+float: right;&#13;
+margin: 5px;&#13;
+}&#13;
+&#13;
+.solidbar {&#13;
+min-height: 50px;&#13;
+background-color: black;&#13;
+}&#13;
+&#13;
+.weather {&#13;
+position : relative;&#13;
+}&#13;
+&#13;
+.weather .inner {&#13;
+background-color: #7e7e7e;&#13;
+color: white;&#13;
+position: absolute;&#13;
+right:0;&#13;
+padding: 5px;&#13;
+}&#13;
+&#13;
+.weather .inner img {&#13;
+padding-right: 5px;&#13;
+}&#13;
+&#13;
+.footer {&#13;
+    position: absolute;&#13;
+   bottom:0;&#13;
+   right: 0;&#13;
+    left: 0;&#13;
+}</style>
+        <sys_class_name>content_css</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-07 17:37:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>69ca3a83c3221200f7d1ca3adfba8f8c</sys_id>
+        <sys_mod_count>65</sys_mod_count>
+        <sys_name>BBall Styles</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>content_css_69ca3a83c3221200f7d1ca3adfba8f8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-09 00:32:52</sys_updated_on>
+        <type>local</type>
+        <url/>
+    </content_css>
+</record_update>
