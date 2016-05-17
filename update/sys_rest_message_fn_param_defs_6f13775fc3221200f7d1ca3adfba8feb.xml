@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE">
+        <name>APPID</name>
+        <order>100</order>
+        <rest_message_function display_value="get">5d98055fc3221200f7d1ca3adfba8f5c</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 16:30:56</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f13775fc3221200f7d1ca3adfba8feb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>APPID</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_6f13775fc3221200f7d1ca3adfba8feb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 16:30:56</sys_updated_on>
+        <value>5c7c648361f62bf147a299175a596382</value>
+    </sys_rest_message_fn_param_defs>
+</record_update>
