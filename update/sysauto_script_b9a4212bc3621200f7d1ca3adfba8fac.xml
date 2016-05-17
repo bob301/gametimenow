@@ -4,7 +4,7 @@
         <active>true</active>
         <condition/>
         <conditional>false</conditional>
-        <name>Update weather</name>
+        <name>EXAMPLE Update weather</name>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
@@ -46,15 +46,15 @@
         <sys_created_on>2016-04-09 20:21:16</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b9a4212bc3621200f7d1ca3adfba8fac</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>Update weather</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>EXAMPLE Update weather</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sysauto_script_b9a4212bc3621200f7d1ca3adfba8fac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-09 21:02:49</sys_updated_on>
+        <sys_updated_on>2016-05-17 17:13:24</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

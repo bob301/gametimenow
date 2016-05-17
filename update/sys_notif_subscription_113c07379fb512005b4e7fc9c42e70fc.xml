@@ -8,7 +8,7 @@
         <devices>012c07379fb512005b4e7fc9c42e7096</devices>
         <filter/>
         <name>test</name>
-        <notification display_value="SN BBall Notification">ebfd6f109f7112005ca47fc9c42e7016</notification>
+        <notification display_value="GmaeTimeNow Notification">ebfd6f109f7112005ca47fc9c42e7016</notification>
         <schedule/>
         <sys_class_name>sys_notif_subscription</sys_class_name>
         <sys_created_by>admin</sys_created_by>
