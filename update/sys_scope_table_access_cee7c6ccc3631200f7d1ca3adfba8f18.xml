@@ -22,8 +22,8 @@
 	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
 	org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
-	org.mozilla.javascript.gen.sys_script_include_af7c7d83d7100200b6bddb0c825203aa_351._c_loadACLs_2(sys_script_include.af7c7d83d7100200b6bddb0c825203aa:7)
-	org.mozilla.javascript.gen.sys_script_include_af7c7d83d7100200b6bddb0c825203aa_351.call(sys_script_include.af7c7d83d7100200b6bddb0c825203aa)
+	org.mozilla.javascript.gen.sys_script_include_951d9ae8eb40020007e48c1cf106feb0_347._c_loadTables_2(sys_script_include.951d9ae8eb40020007e48c1cf106feb0:7)
+	org.mozilla.javascript.gen.sys_script_include_951d9ae8eb40020007e48c1cf106feb0_347.call(sys_script_include.951d9ae8eb40020007e48c1cf106feb0)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
@@ -99,17 +99,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-07 16:59:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>9e403f73c3321200f7d1ca3adfba8fb8</sys_id>
+        <sys_id>cee7c6ccc3631200f7d1ca3adfba8f18</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>sys_security_acl</sys_name>
+        <sys_name>sys_ui_list</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
-        <sys_update_name>sys_scope_table_access_9e403f73c3321200f7d1ca3adfba8fb8</sys_update_name>
+        <sys_update_name>sys_scope_table_access_cee7c6ccc3631200f7d1ca3adfba8f18</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-04-07 16:59:38</sys_updated_on>
-        <table_name>sys_security_acl</table_name>
+        <table_name>sys_ui_list</table_name>
         <target_scope display_value="Global">global</target_scope>
         <write_access>false</write_access>
     </sys_scope_table_access>

@@ -22,8 +22,8 @@
 	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
 	org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
-	org.mozilla.javascript.gen.sys_script_include_a6dc1d39d7100200b6bddb0c825203da_348._c_loadTables_2(sys_script_include.a6dc1d39d7100200b6bddb0c825203da:7)
-	org.mozilla.javascript.gen.sys_script_include_a6dc1d39d7100200b6bddb0c825203da_348.call(sys_script_include.a6dc1d39d7100200b6bddb0c825203da)
+	org.mozilla.javascript.gen.sys_script_include_df3825dbeb13310007e48c1cf106fe9d_346._c_loadTables_2(sys_script_include.df3825dbeb13310007e48c1cf106fe9d:7)
+	org.mozilla.javascript.gen.sys_script_include_df3825dbeb13310007e48c1cf106fe9d_346.call(sys_script_include.df3825dbeb13310007e48c1cf106fe9d)
 	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
 	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
 	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
@@ -99,17 +99,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-07 16:59:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>73403f73c3321200f7d1ca3adfba8fea</sys_id>
+        <sys_id>35e786ccc3631200f7d1ca3adfba8ff4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>sys_ui_related_list</sys_name>
+        <sys_name>sys_db_object</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
-        <sys_update_name>sys_scope_table_access_73403f73c3321200f7d1ca3adfba8fea</sys_update_name>
+        <sys_update_name>sys_scope_table_access_35e786ccc3631200f7d1ca3adfba8ff4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-04-07 16:59:38</sys_updated_on>
-        <table_name>sys_ui_related_list</table_name>
+        <table_name>sys_db_object</table_name>
         <target_scope display_value="Global">global</target_scope>
         <write_access>false</write_access>
     </sys_scope_table_access>

@@ -3,12 +3,12 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>sn_bball.EXAMPLEWeatherFetcher</api_name>
+        <api_name>sn_bball.WeatherFetcher</api_name>
         <client_callable>false</client_callable>
         <description>Fetches weather data;</description>
-        <name>EXAMPLEWeatherFetcher</name>
-        <script><![CDATA[var EXAMPLEWeatherFetcher = Class.create();
-EXAMPLEWeatherFetcher.prototype = {
+        <name>WeatherFetcher</name>
+        <script><![CDATA[var WeatherFetcher = Class.create();
+WeatherFetcher.prototype = {
     initialize: function() {
 		this.json = new global.JSON();
     },
@@ -60,21 +60,21 @@ EXAMPLEWeatherFetcher.prototype = {
 		
 	},
 	
-    type: 'EXAMPLEWeatherFetcher'
+    type: 'WeatherFetcher'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-09 20:20:38</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>1636a12bc3621200f7d1ca3adfba8ffe</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>EXAMPLEWeatherFetcher</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>WeatherFetcher</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy>read</sys_policy>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_script_include_1636a12bc3621200f7d1ca3adfba8ffe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-05-17 17:11:48</sys_updated_on>
+        <sys_updated_on>2016-05-17 23:58:29</sys_updated_on>
     </sys_script_include>
 </record_update>

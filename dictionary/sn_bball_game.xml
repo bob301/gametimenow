@@ -8,5 +8,6 @@
                 <element label="The Park" sequence="1" value="The Park"/>
             </choice>
         </element>
+        <element default="Sunny" label="Projected Weather" max_length="40" name="projected_weather" type="string"/>
     </element>
 </database>
