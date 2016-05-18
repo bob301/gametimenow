@@ -34,6 +34,7 @@
     var registeredPlayers = new GlideRecord("sn_bball_game_player");
     registeredPlayers.addQuery("player",current.getValue("player"));
     registeredPlayers.addQuery("game", current.getValue("game"));
+	registeredPlayers.addQuery("sys_id","!=", current.getValue("sys_id"));
     
     registeredPlayers.query();
     
@@ -52,7 +53,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7a08404c3031200f7d1ca3adfba8f56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Enforce one registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
@@ -61,7 +62,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_script_e7a08404c3031200f7d1ca3adfba8f56</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-22 16:58:49</sys_updated_on>
+        <sys_updated_on>2016-05-18 17:38:54</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

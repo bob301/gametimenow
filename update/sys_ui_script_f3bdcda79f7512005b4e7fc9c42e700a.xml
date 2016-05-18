@@ -7,9 +7,9 @@
         <name>sn_bball.BBallPlayers</name>
         <script><![CDATA[var app = angular.module("bball", [])
 	.controller('PlayersController', ['$scope', '$http', function($scope, $http) {
-		$scope.game_players_url = '/api/now/table/sn_bball_game_players';
+		$scope.game_players_url = '/api/now/table/sn_bball_game_player';
 		$scope.games_url = '/api/now/table/sn_bball_game';
-		$scope.players_url = '/api/now/table/sn_bball_bball_players';
+		$scope.players_url = '/api/now/table/sn_bball_game_player';
 		
 		$http.defaults.headers.common.Accept = "application/json";
 		$http.defaults.headers.common['X-UserToken'] = g_ck;
@@ -33,7 +33,7 @@
 			$scope.getNextGame().then(function() {
 				$http({
 					method : 'GET',
-					url : $scope.game_players_url + "?sysparm_query=^game=" + $scope.nextGame + "^playing=1^ORDERBYDESCgame&sysparm_display_value=true"
+					url : $scope.game_players_url + "?sysparm_query=game=" + $scope.nextGame + "^playing=1^ORDERBYDESCgame&sysparm_display_value=true"
 				}).success(function(data, status) {
 					$scope.optin = data.result;
 				}).error(function(data, status) {
@@ -42,7 +42,7 @@
 			}).then(function() {
 				$http({
 					method : 'GET',
-					url : $scope.game_players_url + "?sysparm_query=^game=" + $scope.nextGame + "^playing=0^ORDERBYDESCgame&sysparm_display_value=true"
+					url : $scope.game_players_url + "?sysparm_query=game=" + $scope.nextGame + "^playing=0^ORDERBYDESCgame&sysparm_display_value=true"
 				}).success(function(data, status) {
 					$scope.optout = data.result;
 				}).error(function(data, status) {
@@ -57,7 +57,7 @@
 			
 			$http({
 				method : 'GET',
-				url : $scope.players_url + "?sysparm_query=^player=" + userId + "&sysparm_display_value=true"
+				url : $scope.players_url + "?sysparm_query=player.player=" + userId + "&sysparm_display_value=true"
 			}).success(function(data, status) {
 				$scope.current_player = data.result[0].sys_id;
 			}).error(function(data, status) {
@@ -83,7 +83,7 @@
 				//try updating the existing record?
 				$http({
 					method : 'GET',
-					url : $scope.game_players_url + "?sysparm_query=^player=" + $scope.current_player + 
+					url : $scope.game_players_url + "?sysparm_query=player=" + $scope.current_player + 
 						"^game=" + $scope.nextGame + "&sysparm_display_value=true"
 				}).success(function(data, status) {
 				
@@ -109,7 +109,7 @@
         <sys_created_on>2016-03-02 16:11:34</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>f3bdcda79f7512005b4e7fc9c42e700a</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>sn_bball.BBallPlayers</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
@@ -117,7 +117,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_ui_script_f3bdcda79f7512005b4e7fc9c42e700a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-11 19:05:59</sys_updated_on>
+        <sys_updated_on>2016-05-18 18:02:19</sys_updated_on>
         <use_scoped_format>false</use_scoped_format>
     </sys_ui_script>
 </record_update>
