@@ -52,7 +52,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-04-22 15:56:28</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>0f169a40c3a31200f7d1ca3adfba8f4b</sys_id>
+        <sys_id>1faf03d8c3a31200f7d1ca3adfba8f28</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Player</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_dictionary_sn_bball_game_player_player</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-05-18 00:16:03</sys_updated_on>
+        <sys_updated_on>2016-05-18 23:06:03</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
