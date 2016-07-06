@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-04-22 16:48:42</sys_updated_on>
         <table>sn_bball_game_player</table>
-        <ui_policy display_value="Reguire Game and Player for the m2m table">d2ee7337c3321200f7d1ca3adfba8fdb</ui_policy>
+        <ui_policy display_value="Require Game and Player for the m2m table">d2ee7337c3321200f7d1ca3adfba8fdb</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

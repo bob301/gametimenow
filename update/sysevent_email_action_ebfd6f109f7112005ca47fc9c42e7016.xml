@@ -28,20 +28,20 @@
 <tbody>
 <tr>
 <td>
-<table style="width: 800px; height: 575px; background: url('http://s30.postimg.org/ghj65vrep/sn_basketball_bg.jpg'); border-collapse: collapse;" width="800">
+<table style="width: 800px; height: 575px; background: url('/sn_basketball_bg.jpg'); border-collapse: collapse;" width="800">
 <tbody>
 <tr>
 <td colspan="4" height="260">&nbsp;</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td id="button-wrapper" style="background: url('/bball_email_in.png') no-repeat center; text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?playing=true">YES</a></td>
-<td style="background: url('/bball_email_out.png') no-repeat center; text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?playing=false">NO</a></td>
+<td id="button-wrapper" style="text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?game=${sys_id}&amp;playing=true">YES</a></td>
+<td style="text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?game=${sys_id}&amp;playing=false">NO</a></td>
 <td>&nbsp;</td>
 </tr>
 <tr>
 <td>&nbsp;</td>
-<td style="height: 100px; text-align: center; color: white;" colspan="2">Click <a style="color: #d11e26;" href="/sn_bball_SN%20BBall.do">HERE</a> to see who's playing.</td>
+<td style="height: 100px; text-align: center; color: white;" colspan="2">Click <a style="color: #d11e26;" href="/sn_bball_game.do?sys_id=${sys_id}">HERE</a> to see who's playing.</td>
 <td>&nbsp;</td>
 </tr>
 <tr>
@@ -55,6 +55,7 @@
 </tr>
 </tbody>
 </table>
+<p>&nbsp;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -64,7 +65,7 @@
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>chris.ward@servicenow.com</recipient_users>
+        <recipient_users>5137153cc611227c000bbd1bd8cd2005</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -78,7 +79,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ebfd6f109f7112005ca47fc9c42e7016</sys_id>
-        <sys_mod_count>35</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>SN BBall Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
@@ -87,7 +88,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sysevent_email_action_ebfd6f109f7112005ca47fc9c42e7016</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-11 22:33:25</sys_updated_on>
+        <sys_updated_on>2016-07-06 22:34:57</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

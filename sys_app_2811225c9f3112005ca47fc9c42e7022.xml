@@ -5,6 +5,7 @@
         <enforce_license>log</enforce_license>
         <js_level>traditional</js_level>
         <licensable>true</licensable>
+        <license_model>none</license_model>
         <logo/>
         <menu/>
         <name>GameTimeNow</name>
