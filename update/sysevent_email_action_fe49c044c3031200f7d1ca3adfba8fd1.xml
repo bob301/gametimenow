@@ -23,10 +23,40 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p align="center"><font size="7">Are you in?</font></p>
-<p align="center"><font size="7"><a title="Yes" href="sn_bball_insert_game_player.do?game=${sys_id}&amp;playing=true">Yes</a> <a title="No" href="sn_bball_insert_game_player?game=${sys_id}&amp;playing=false">No</a></font></p>
-<p align="center"><font size="7">See who's playing <a title="HERE" href="${URI}">HERE</a>.</font></p>
-<p align="center"><font size="7">&nbsp;</font></p>]]></message_html>
+        <message_html><![CDATA[<p>&nbsp;</p>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<table style="width: 800px; height: 575px; background: url('http://s30.postimg.org/ghj65vrep/sn_basketball_bg.jpg'); border-collapse: collapse;" width="800">
+<tbody>
+<tr>
+<td colspan="4" height="260">&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td id="button-wrapper" style="text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?game=${sys_id}&amp;playing=true">YES</a></td>
+<td style="text-align: center;" width="310" height="140"><a style="text-decoration: none; line-height: 140px; margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold; color: #fff;" href="/sn_bball_insert_game_player.do?game=${sys_id}&amp;playing=false">NO</a></td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td style="height: 100px; text-align: center; color: white;" colspan="2">Click <a style="color: #d11e26;" href="/sn_bball_game.do?sys_id=${sys_id}">HERE</a> to see who's playing.</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td style="background-color: black; text-align: center; height: 75px;" colspan="4">
+<p style="margin: 0; padding: 0; font-family: Arial, Helvetica; font-size: 12px; color: #fff; padding-top: 16px; text-align: center;">ServiceNow Basketball</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>New Game notification</name>
@@ -49,7 +79,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fe49c044c3031200f7d1ca3adfba8fd1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>New Game notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
@@ -58,7 +88,7 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sysevent_email_action_fe49c044c3031200f7d1ca3adfba8fd1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-22 17:38:07</sys_updated_on>
+        <sys_updated_on>2016-07-06 19:58:52</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
