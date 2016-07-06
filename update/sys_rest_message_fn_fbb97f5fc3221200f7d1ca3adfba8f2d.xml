@@ -7,6 +7,7 @@
         <basic_auth_user/>
         <content/>
         <function_name>get</function_name>
+        <http_method/>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>

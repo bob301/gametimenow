@@ -9,7 +9,7 @@
             <sys_id>a0bdbff3c3321200f7d1ca3adfba8f31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="11102400c3231200f7d1ca3adfba8fb0">2cbdbff3c3321200f7d1ca3adfba8f30</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="f97e0631c3102200f7d1ca3adfba8f9c">2cbdbff3c3321200f7d1ca3adfba8f30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2016-04-22 16:38:41</sys_updated_on>
             <sys_user/>
@@ -23,7 +23,7 @@
             <sys_id>24bdbff3c3321200f7d1ca3adfba8f31</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="11102400c3231200f7d1ca3adfba8fb0">2cbdbff3c3321200f7d1ca3adfba8f30</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sn_bball_game" sys_domain="global" view="f97e0631c3102200f7d1ca3adfba8f9c">2cbdbff3c3321200f7d1ca3adfba8f30</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2016-04-22 16:38:41</sys_updated_on>
             <sys_user/>
@@ -53,7 +53,7 @@
             <sys_updated_on>2016-04-22 16:38:41</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Mobile" name="Mobile">11102400c3231200f7d1ca3adfba8fb0</view>
+            <view display_value="Mobile" name="Mobile">f97e0631c3102200f7d1ca3adfba8f9c</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

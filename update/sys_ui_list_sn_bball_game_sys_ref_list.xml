@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>game_date</element>
-            <list_id display_value="sn_bball_game" element="NULL" name="sn_bball_game" parent="NULL" relationship="NULL" sys_domain="global" view="50102400c3231200f7d1ca3adfba8f8a">ca5fcb07c3221200f7d1ca3adfba8f72</list_id>
+            <list_id display_value="sn_bball_game" element="NULL" name="sn_bball_game" parent="NULL" relationship="NULL" sys_domain="global" view="c87e0631c3102200f7d1ca3adfba8f76">ca5fcb07c3221200f7d1ca3adfba8f72</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -43,7 +43,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2016-04-07 19:05:02</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">50102400c3231200f7d1ca3adfba8f8a</view>
+            <view display_value="Reference List" name="sys_ref_list">c87e0631c3102200f7d1ca3adfba8f76</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
