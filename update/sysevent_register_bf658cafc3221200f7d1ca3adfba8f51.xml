@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Initially the weather-getter will react to this, but others may follow</description>
+        <event_name>sn_bball.game.inserted</event_name>
+        <fired_by>Business rule on insert of new game</fired_by>
+        <queue/>
+        <suffix>game.inserted</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 17:40:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bf658cafc3221200f7d1ca3adfba8f51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_bball.game.inserted</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>sysevent_register_bf658cafc3221200f7d1ca3adfba8f51</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 17:40:55</sys_updated_on>
+        <table>sn_bball_game</table>
+    </sysevent_register>
+</record_update>

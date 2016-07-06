@@ -66,7 +66,7 @@
         <sys_created_on>2016-04-22 15:40:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>4a403f73c3321200f7d1ca3adfba8fb6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>sys_app</sys_name>
         <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
         <sys_policy/>
@@ -74,9 +74,9 @@
         <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
         <sys_update_name>sys_scope_table_access_4a403f73c3321200f7d1ca3adfba8fb6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-04-22 15:40:04</sys_updated_on>
+        <sys_updated_on>2016-05-18 00:50:35</sys_updated_on>
         <table_name>sys_app</table_name>
         <target_scope display_value="Global">global</target_scope>
-        <write_access>false</write_access>
+        <write_access>true</write_access>
     </sys_scope_table_access>
 </record_update>

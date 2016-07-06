@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_table_access">
+    <sys_scope_table_access action="INSERT_OR_UPDATE">
+        <create_access>false</create_access>
+        <delete_access>false</delete_access>
+        <example_stack_trace>Upload to the App Repository
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.getCurrentStackTrace(ScopeAccessProvider.java:234)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.record(ScopeAccessProvider.java:202)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider$ScopeAccessCache.access$100(ScopeAccessProvider.java:81)
+	com.glide.sys.fencing.dependency.ScopeAccessProvider.recordAccess(ScopeAccessProvider.java:64)
+	com.glide.sys.fencing.dependency.ScopeAccessRecorder.record(ScopeAccessRecorder.java:13)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsTo(ScopedTableAccess.java:93)
+	com.glide.script.fencing.access.ScopedTableAccess.hasRightsToTable(ScopedTableAccess.java:40)
+	com.glide.script.fencing.ScopedGlideRecord.getScopeAccessStatusForTable(ScopedGlideRecord.java:229)
+	com.glide.script.fencing.ScopedGlideRecord.checkOperationPermitted(ScopedGlideRecord.java:211)
+	com.glide.script.fencing.ScopedGlideRecord.jsFunction_query(ScopedGlideRecord.java:170)
+	sun.reflect.GeneratedMethodAccessor439.invoke(Unknown Source)
+	sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.lang.reflect.Method.invoke(Method.java:497)
+	org.mozilla.javascript.MemberBox.invoke(MemberBox.java:138)
+	org.mozilla.javascript.FunctionObject.doInvoke(FunctionObject.java:637)
+	org.mozilla.javascript.FunctionObject.call(FunctionObject.java:581)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2574)
+	org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856._c_query_7(sys_script_include.c62bfba15b801200cadc853291f91add:77)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856.call(sys_script_include.c62bfba15b801200cadc853291f91add)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856._c_findExternalConfig_6(sys_script_include.c62bfba15b801200cadc853291f91add:71)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856.call(sys_script_include.c62bfba15b801200cadc853291f91add)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856._c_findUpdates_3(sys_script_include.c62bfba15b801200cadc853291f91add:20)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856.call(sys_script_include.c62bfba15b801200cadc853291f91add)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856._c_anonymous_2(sys_script_include.c62bfba15b801200cadc853291f91add:8)
+	org.mozilla.javascript.gen.sys_script_include_c62bfba15b801200cadc853291f91add_2856.call(sys_script_include.c62bfba15b801200cadc853291f91add)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	org.mozilla.javascript.gen.sys_script_include_d46e7b22d713310092610eca5e610343_2851._c_anonymous_10(sys_script_include.d46e7b22d713310092610eca5e610343:204)
+	org.mozilla.javascript.gen.sys_script_include_d46e7b22d713310092610eca5e610343_2851.call(sys_script_include.d46e7b22d713310092610eca5e610343)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)
+	org.mozilla.javascript.gen.sys_script_include_d46e7b22d713310092610eca5e610343_2851._c_anonymous_2(sys_script_include.d46e7b22d713310092610eca5e610343:10)
+	org.mozilla.javascript.gen.sys_script_include_d46e7b22d713310092610eca5e610343_2851.call(sys_script_include.d46e7b22d713310092610eca5e610343)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	org.mozilla.javascript.gen.sys_script_include_d4bfe311d71321004f6a0eca5e61037e_2849._c_anonymous_5(sys_script_include.d4bfe311d71321004f6a0eca5e61037e:56)
+	org.mozilla.javascript.gen.sys_script_include_d4bfe311d71321004f6a0eca5e61037e_2849.call(sys_script_include.d4bfe311d71321004f6a0eca5e61037e)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)
+	org.mozilla.javascript.gen.sys_script_include_d4bfe311d71321004f6a0eca5e61037e_2849._c_anonymous_2(sys_script_include.d4bfe311d71321004f6a0eca5e61037e:16)
+	org.mozilla.javascript.gen.sys_script_include_d4bfe311d71321004f6a0eca5e61037e_2849.call(sys_script_include.d4bfe311d71321004f6a0eca5e61037e)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callProp0(OptRuntime.java:85)
+	org.mozilla.javascript.gen.sys_script_include_45b9fa01eb002100d4360c505206fe8e_2848._c_anonymous_2(sys_script_include.45b9fa01eb002100d4360c505206fe8e:28)
+	org.mozilla.javascript.gen.sys_script_include_45b9fa01eb002100d4360c505206fe8e_2848.call(sys_script_include.45b9fa01eb002100d4360c505206fe8e)
+	org.mozilla.javascript.ScriptRuntime.doCall2(ScriptRuntime.java:2645)
+	org.mozilla.javascript.ScriptRuntime.doCall(ScriptRuntime.java:2582)
+	org.mozilla.javascript.optimizer.OptRuntime.callN(OptRuntime.java:52)
+	org.mozilla.javascript.gen.sys_script_include_45b9fa01eb002100d4360c505206fe8e_2847._c_script_0(sys_script_include.45b9fa01eb002100d4360c505206fe8e:1)
+	org.mozilla.javascript.gen.sys_script_include_45b9fa01eb002100d4360c505206fe8e_2847.call(sys_script_include.45b9fa01eb002100d4360c505206fe8e)
+	org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:560)
+	org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3439)
+	org.mozilla.javascript.gen.sys_script_include_45b9fa01eb002100d4360c505206fe8e_2847.call(sys_script_include.45b9fa01eb002100d4360c505206fe8e)
+	org.mozilla.javascript.gen.sys_script_include_45b9fa01eb002100d4360c505206fe8e_2847.exec(sys_script_include.45b9fa01eb002100d4360c505206fe8e)
+	com.glide.script.ScriptEvaluator.execute(ScriptEvaluator.java:236)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:107)
+	com.glide.script.ScriptEvaluator.evaluateString(ScriptEvaluator.java:73)
+	com.glide.script.fencing.GlideScopedEvaluator.evaluateScript(GlideScopedEvaluator.java:322)
+	com.glide.worker.ScriptedHierarchicalWorker.evaluateScriptInScope(ScriptedHierarchicalWorker.java:84)
+	com.glide.worker.ScriptedHierarchicalWorker.startWork(ScriptedHierarchicalWorker.java:65)
+	com.glide.worker.AbstractProgressWorker.startAndWait(AbstractProgressWorker.java:86)
+	com.glide.worker.HierarchicalProgressWorker.startAndWait(HierarchicalProgressWorker.java:37)
+	com.glide.worker.ProgressWorkerThread.run(ProgressWorkerThread.java:53)
+</example_stack_trace>
+        <read_access>true</read_access>
+        <source_scope display_value="Scoped App Author">893ea311d71321004f6a0eca5e6103e6</source_scope>
+        <sys_class_name>sys_scope_table_access</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-18 00:50:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f01e12c0c3a31200f7d1ca3adfba8f45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_scripts</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>sys_scope_table_access_f01e12c0c3a31200f7d1ca3adfba8f45</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-18 00:50:47</sys_updated_on>
+        <table_name>pa_scripts</table_name>
+        <target_scope display_value="Global">global</target_scope>
+        <write_access>false</write_access>
+    </sys_scope_table_access>
+</record_update>

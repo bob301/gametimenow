@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <format>png</format>
+        <height>40</height>
+        <image/>
+        <name>Overcasty.png</name>
+        <size_bytes>689</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:29:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>774ca4a3c3621200f7d1ca3adfba8f96</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Overcasty.png</sys_name>
+        <sys_package display_value="GameTimeNow" source="sn_bball">2811225c9f3112005ca47fc9c42e7022</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">2811225c9f3112005ca47fc9c42e7022</sys_scope>
+        <sys_update_name>db_image_774ca4a3c3621200f7d1ca3adfba8f96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 20:30:12</sys_updated_on>
+        <thumbnail/>
+        <width>40</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>689</size_bytes>
+        <size_compressed>712</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:12</sys_created_on>
+        <sys_id>976ca4a3c3621200f7d1ca3adfba8f3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-04-08 20:30:12</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>774ca4a3c3621200f7d1ca3adfba8f96</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="976ca4a3c3621200f7d1ca3adfba8f3d">976ca4a3c3621200f7d1ca3adfba8f3d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:12</sys_created_on>
+        <sys_id>d76ca4a3c3621200f7d1ca3adfba8f3d</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AbECTv2JUE5HDQoaCgAAAA1JSERSAAAAKAAAACgIBgAAAIz+uG0AAAJ4SURBVHja7ZdNSFRRFMc1o7IP+thkJEERUYsKMkjd5EZaRaVgYRG06mNRCIGIiyFqE+IiLLSlq2CQNoKLWgzSpnZiY6QDzWIammZqPmK+35uZfgeuG33KOO9Nz+D+4c+8O/fec//3nHvuea+hQUNDQ+P/QT6fP1EqlUbgXLlczlUAz1E4a5rmQCKR2OeKsHA4vBMRY4gqwS88P0VQr2EY3fzeoj3O/z/hb9r3/6k48QoCPsIYi9/gr0arcdFodDdjnskmRPBa45xGI4u9Y9HvhPd4NRPYxFUlcrju6ljsDosZxWLx/AbnPZZ5hULhpKOCYrHYHsS0wwuRSGQXXliEExu14/P5tjJvSYXaPtT5ec2uCxWF5WfEttViE3tD2Ih4PJ4ttsSFQqFmjH2CPwjNzVQqdSCdTrfwfFcyttbDzsY6ZYOZTOaQLYFymGEql8sdXdnn9/u31WoXe8dUBM7ZEqjutRGnE4wEOSUC+T1TkwGv19uE+w/LWSOct+twA1xXZ9nEAR+kXdVEztdBVRXiywlBe9BpgfF4fK94kWpzGfuTSuhbqUrruf2sJAODv7GjB7RPS32t9hK2A7m+pBrBKcvEUyUrhLj3cq24UdPx5kWJmFQbq2x9An8lk8n9br4RoWEazlhl61c6nrv9yob37sm1ZiXQoLNvEwi8JmG2Eliks38TCHwo741WsZ+Dr9wWiAafyuRVHY9gOpvNHnHRez0SXrK5a1VnMBjcgcDPcF4qiAviegltlvVfrjkI77UyYAH+gaNMuiK7qSMvyTeKhFVVrBdSYtfdSSAQ2C5fYOrLzKzUGawRZq03VJIO/V2soaGhoeE8/gIRhQSshib6EgAAAABJRU5ErkJggj1k2cSxAgAA</data>
+        <length>936</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="976ca4a3c3621200f7d1ca3adfba8f3d">976ca4a3c3621200f7d1ca3adfba8f3d</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-04-08 20:30:12</sys_created_on>
+        <sys_id>5b6ca4a3c3621200f7d1ca3adfba8f3d</sys_id>
+    </sys_attachment_doc>
+</record_update>
